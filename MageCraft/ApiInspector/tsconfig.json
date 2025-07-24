@@ -1,0 +1,18 @@
+{
+  "name": "magecraft/module-api-inspector",
+  "description": "CLI tool to inspect and list Magento REST APIs as Postman collections",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "require": {
+    "php": "^7.4 || ^8.1",
+    "magento/framework": "*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MageCraft\\ApiInspector\\": ""
+    }
+  }
+}
